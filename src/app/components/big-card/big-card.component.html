@@ -1,21 +1,15 @@
 <div class="imgStatus">
   <div class="big-car_img">
-    <img [src]="imgUrl" alt="Imagem Dinâmica" />
+    <img src="{{ photoCard }}" alt="Imagem Dinâmica" />
   </div>
   <a
     href="https://thenexus.one/o-novo-ataque-de-forca-imperdivel-de-darth-vader-e-muito-brutal-para-o-cinema/"
   >
     <div class="big-car_title">
-      <h1>O novo ataque de força imperdível de Darth Vader!</h1>
+      <h1>{{ titleCard }}</h1>
     </div>
     <div class="big-car_text">
-      <p>
-        Aviso! Este artigo contém spoilers de Star Wars: Darth Vader – Preto,
-        Branco e Vermelho #1 No auge dele, Darth Vader foi a força mais mortal
-        da natureza no Guerra das Estrelas galáxia, o que significa que não
-        faltaram ataques brutais que ele usou para massacrar seus inimigos,
-        alguns dos quais seriam intensos demais para serem mostrados nos filmes.
-      </p>
+      <p>{{ textCard }}</p>
     </div>
   </a>
 </div>
