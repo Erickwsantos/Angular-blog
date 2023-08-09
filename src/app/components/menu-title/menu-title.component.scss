@@ -1,0 +1,16 @@
+.menu_title {
+    padding: 20px;
+    hr {
+        margin: 15px 30px 5px 30px;
+    }
+    h1 {
+        padding: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100px;
+        font-size: 100px;
+        font-weight: 600;
+        font-family: sans-serif
+    }
+}

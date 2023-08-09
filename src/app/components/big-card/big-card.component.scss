@@ -1,0 +1,42 @@
+.imgStatus {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    .big-car_img {
+        border-radius: 10px;
+        padding: 10px 10px 0px 30px;
+        margin-bottom: 10px;
+
+        img {
+            height: 350px;
+            width: 100%;
+            min-width: 100%;
+            border-radius: 15px;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+    }
+
+    .big-car_title {
+        h1 {
+            font-size: 20px;
+            font-weight: 600;
+            font-family: sans-serif;
+        }
+    }
+
+    .big-car_text {
+        font-size: 100px;
+        font-weight: 600;
+        font-family: sans-serif;
+        p {
+            color: gray;
+            padding-top: 10px;
+            font-size: 12px;
+            font-weight: 600;
+            font-family: sans-serif;
+            text-align: justify;
+        }
+    }
+}

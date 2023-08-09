@@ -1,0 +1,32 @@
+.smallCardStatus{
+    .smallCardContainer{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        .smallCard_img {
+            border-radius: 10px;
+            padding: 10px 10px 0px 30px;
+            img {
+                height: 150px;
+                width: 100%;
+                min-width: 100%;
+                border-radius: 15px;
+                padding: 10px;
+            }
+        }
+        
+        .smallCard_title {
+            h1 {
+                font-size: 20px;
+                font-weight: 600;
+                font-family: sans-serif;
+            }
+        }
+    }
+    
+}
+
+hr {
+    margin: 0px 5px 0px 40px;
+}
